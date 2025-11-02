@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    background-color: lightpink;
+    margin: 10px;
+}
+
+span {
+    background-color: lightblue;
+    margin: 10px;
+}
+
+
+.container div {
+    background-color: lightgreen;
+    margin: 10px;
+}
+
+.container span {
+    background-color: lightsalmon;
+    margin: 10px;
+}
+
+.block {
+    background-color: lightskyblue;
+    display: block;
+}
+
+.inline {
+    background-color: lightseagreen;
+    display: inline;
+}
+
+.inline-block {
+    background-color: lightsteelblue;
+    display: inline-block;
+}
+
+.inline-block.padding-margin {
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline.padding-margin {
+    background-color: lightseagreen;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+.layout .group {
+    width: 680px;
+    height: 100%;
+    vertical-align:top;
+}
+
+.layout .group .inline-block {
+    width: 50px;
+    height: 50px;
+}
+/* Overwriting css from div tag */
+.css-container {
+    background-color: lightgoldenrodyellow;
+}

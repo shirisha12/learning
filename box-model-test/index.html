@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Testing Box Model</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1> Using div and span </h1>
+        <div>
+            This is a div.
+        </div>
+        <hr>
+        <div>
+            This is a 1 of 3 div elements.
+        </div>
+        <div>
+            This is a 2 of 3 div elements.
+        </div>
+        <div>
+            This is a 3 of 3 div elements.
+        </div>
+        <hr>
+        <span>This is a span. </span>
+        <span>This is another span. </span>
+        <span>This is the last span. </span>
+        <hr>
+        <div class="container">
+            This is a container of divs.
+            <div> This is div 1 of the container. </div>
+            <div> This is div 2 of the container. </div>
+            <div> This is div 3 of the container. </div>
+        </div>
+        <hr>
+        <div class="container">
+            This is a container of spans.
+            <span> This is span 1 of the container. </span>
+            <span> This is span 2 of the container. </span>
+            <span> This is span 3 of the container. </span>
+        </div>
+        <hr>
+        <div class="container">
+            This is container of container of spans.
+            <div>
+            <span> This is span 1 of the container. </span>
+            <span> This is span 2 of the container. </span>
+            <span> This is span 3 of the container. </span>
+            </div>
+        </div>
+        <hr>
+        <h1> Using display property : block, inline, inline-block </h1>
+        <p class="block"> This is a block paragraph. </p>
+        <hr>
+        <div class="css-container">
+            <p class="block">This is block paragraph 1 of container. </p>
+            <p class="block">This is block paragraph 2 of container. </p>
+            <p class="block">This is block paragraph 3 of container. </p>
+        </div>
+        <hr>
+        <div class="css-container">
+            <p class="inline">This is inline paragraph 1 of container. </p>
+            <p class="inline">This is inline paragraph 2 of container. </p>
+            <p class="inline">This is inline paragraph 3 of container. </p>
+        </div>
+        <hr>
+        <div class="css-container">
+            <p> This is a container of inline divs. </p>
+            <div class="inline"> This is inline div 1 of the container. </div>
+            <div class="inline"> This is inline div 2 of the container. </div>
+            <div class="inline"> This is inline div 3 of the container. </div>
+        </div>
+        <hr>
+        <div class="css-container">
+            <p> This is a container of inline divs with padding and margin. </p>
+            <div class="inline padding-margin"> This is inline div 1 of the container with padding and margin. </div>
+            <div class="inline padding-margin"> This is inline div 2 of the container with padding and margin. </div>
+            <div class="inline padding-margin"> This is inline div 3 of the container with padding and margin. </div>
+        </div>
+        <hr>
+        <div class="css-container">
+            <p> This is a container of inline-block divs with padding and margin. </p>
+            <div class="inline-block padding-margin"> This is inline-block div 1 of the container with padding and margin. </div>
+            <div class="inline-block padding-margin"> This is inline-block div 2 of the container with padding and margin. </div>
+            <div class="inline-block padding-margin"> This is inline-block div 3 of the container with padding and margin. </div>
+        </div>
+        <hr>
+        <h1> Trying complex layout </h1>
+        <div class="css-container layout">
+            <p style="text-align: center;"> Container </p>
+            <div class="inline-block group">
+                <div class="block"> Group 1 </div>
+                <div>
+                    <div class="block"> Div 1 </div>
+                    <div class="block"> Div 2 </div>
+                    <div class="block"> Div 3 </div>
+                    <div class="block"> Div 4 </div>
+                    <div class="block"> Div 5 </div>
+                </div>
+            </div>
+            <div class="inline-block group">
+                <div class="block"> Group 2 </div>
+                <div> 
+                    <div class="inline-block"> Div 1 </div>
+                    <div class="inline-block"> Div 2 </div>
+                    <div class="inline-block"> Div 3 </div>
+                    <div class="inline-block"> Div 4 </div>
+                    <div class="inline-block"> Div 6 </div>
+                    <div class="inline-block"> Div 7 </div>
+                    <div class="inline-block"> Div 8 </div>
+                    <div class="inline-block"> Div 9 </div>
+                    <div class="inline-block"> Div 10 </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
